@@ -6,17 +6,11 @@ package edu.isu.cs.cs2263;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
 import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
 import javafx.geometry.Insets;
 
 public class App extends Application {
@@ -42,7 +36,7 @@ public class App extends Application {
         Label label2 = new Label("Courses");
         ObservableList<String> classes =FXCollections.observableArrayList("CS 1181 Intro to Programming", "CS 2263 Advanced OO Programming", "CS 4423 Software Evolution");
 
-        //Window
+        //Stage
         stage = stage;
         ((Stage) window).setTitle("Course View");
         button = new Button("Load Data");
