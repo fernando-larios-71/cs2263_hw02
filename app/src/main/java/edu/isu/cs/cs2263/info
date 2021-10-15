@@ -1,0 +1,27 @@
+{
+  "firstName": "Isaac",
+  "lastName": "Griffith",
+  "Course" : {
+    "subject": "CS",
+    "num": "1181",
+    "title": "Intro to Programming"
+  }
+}
+{
+  "firstName": "Bob",
+  "lastName": "Sampson",
+  "Course" : {
+    "subject": "CS",
+    "num": "2262",
+    "title": "Advanced OO Programming"
+}
+}
+{
+  "firstName": "Sarah",
+  "lastName": "James",
+  "Course" : {
+    "subject": "CS",
+    "num": "4423",
+    "title": "Software Evolution"
+  }
+}
